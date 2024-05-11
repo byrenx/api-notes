@@ -2,8 +2,8 @@ package com.byrenx.apinotes.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.byrenx.apinotes.entities.Notes;
+import com.byrenx.apinotes.entities.Note;
 
-public interface NotesJpaRepository extends JpaRepository<Notes, Long>{
+public interface NotesJpaRepository extends JpaRepository<Note, Long>{
     
 }

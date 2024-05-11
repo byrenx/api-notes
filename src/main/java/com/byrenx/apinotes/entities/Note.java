@@ -11,7 +11,7 @@ import lombok.Setter;
 @RequiredArgsConstructor
 @Setter
 @Getter
-public class Notes {
+public class Note {
     private @Id @GeneratedValue  Long id;
     private String title;
     private String body;

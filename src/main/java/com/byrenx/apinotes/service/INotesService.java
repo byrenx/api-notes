@@ -1,8 +1,10 @@
 package com.byrenx.apinotes.service;
 
-import com.byrenx.apinotes.dto.NoteDTO;
+import java.util.Optional;
+
+import com.byrenx.apinotes.entities.Note;
 
 public interface INotesService {
-    void createNote(NoteDTO body);
-    NoteDTO getNote(Long id);
+    Note createNote(Note body);
+    Optional<Note> getNote(Long id);
 }
