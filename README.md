@@ -18,7 +18,7 @@
 
 ### Test the API using postman or curl
 
-Exacmple curl API call:
+Example curl API call:
 
 ```
 curl --header "Content-Type: application/json" \
